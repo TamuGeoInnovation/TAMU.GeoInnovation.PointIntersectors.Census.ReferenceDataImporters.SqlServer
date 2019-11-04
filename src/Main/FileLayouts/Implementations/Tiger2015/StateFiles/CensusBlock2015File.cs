@@ -4,14 +4,14 @@ namespace TAMU.GeoInnovation.Applications.Census.ReferenceDataImporter.SqlServer
 {
     public class CensusBlock2015File : AbstractTiger2015ShapefileStateFileLayout
     {
-        
+
 
         public CensusBlock2015File(string stateName)
             : base(stateName)
         {
 
-            ExcludeColumns = new string[] 
-            { 
+            ExcludeColumns = new string[]
+            {
                 "uniqueId",
             };
 

@@ -11,8 +11,8 @@ namespace TAMU.GeoInnovation.Applications.Census.ReferenceDataImporter.SqlServer
             : base(stateName)
         {
 
-            ExcludeColumns = new string[] 
-            { 
+            ExcludeColumns = new string[]
+            {
                 "uniqueId",
                 "tr" + stateFips + "_d90_",
                 "tr" + stateFips + "_d90_I",

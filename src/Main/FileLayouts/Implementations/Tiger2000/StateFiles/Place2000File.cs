@@ -13,7 +13,7 @@ namespace TAMU.GeoInnovation.Applications.Census.ReferenceDataImporter.SqlServer
 
             HasSoundexColumns = true;
             HasSoundexDMColumns = true;
-            SoundexColumns = new string[] { "Name00"};
+            SoundexColumns = new string[] { "Name00" };
             SoundexDMColumns = new string[] { "Name00" };
 
             //ExcludeColumns = new string[] { "Name00_Soundex", "Name00_SoundexDM" };
