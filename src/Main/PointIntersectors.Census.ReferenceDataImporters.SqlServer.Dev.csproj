@@ -85,10 +85,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\libs\ICSharpCode.SharpZipLib.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\..\..\_RepoConfig\SolutionFiles\Dev\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
@@ -97,11 +93,6 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Management" />
-    <Reference Include="System.Web" />
-    <Reference Include="System.Web.Services" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -174,16 +165,6 @@
       <Name>AddressProcessing.Core.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Census\src\Main\Common.Census.Dev.csproj">
-      <Project>{5903BD53-EBAF-4E15-AE63-59430DBBA17F}</Project>
-      <Name>Common.Census.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Files\Src\Main\Common.Core.Files.Dev.csproj">
-      <Project>{0FF43F5C-9E8B-4010-A805-8C54EF43E511}</Project>
-      <Name>Common.Core.Files.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Core.Logging.TraceEvents\Src\Main\Common.Core.Logging.TraceEvents.Dev.csproj">
       <Project>{9F19062E-A949-4FF8-8DC1-7239F06348DF}</Project>
       <Name>Common.Core.Logging.TraceEvents.Dev</Name>
@@ -193,19 +174,9 @@
       <Project>{FE6237ED-DCBB-43F5-A216-27CB99BEAFDB}</Project>
       <Name>Common.Core.Threading.Dev</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Common.Core.Utils\Src\Main\Common.Core.Utils.Dev.csproj">
-      <Project>{0744A732-A7FE-4658-967D-C5A583EF08E4}</Project>
-      <Name>Common.Core.Utils.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\Common.Data.Databases\Src\Main\Common.Data.Databases.Dev.csproj">
       <Project>{A7DF15F2-1210-4431-B223-A3A2810DC14A}</Project>
       <Name>Common.Data.Databases.Dev</Name>
-      <Private>False</Private>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\GeoReferences.DataImporters.Census\src\Main\GeoReferences.DataImporters.Census.Dev.csproj">
-      <Project>{AADA01CF-196D-486E-A14C-6126698AD0DE}</Project>
-      <Name>GeoReferences.DataImporters.Census.Dev</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\..\..\PointIntersectors.Census.ReferenceDataImporters\src\Main\PointIntersectors.Census.ReferenceDataImporters.Dev.csproj">
